@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "After looking back at my first attempt of making a portfolio, I can honestly say that I've learned a lot since I started my coding journey.  Now it's time to utilize everything I've learned thus far and create a portfolio that will get me hired.  Fingers crossed! d[^_^]b",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jramos5883/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jramos5883/portfolio/issues"
+  },
+  "homepage": "https://github.com/jramos5883/portfolio#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
